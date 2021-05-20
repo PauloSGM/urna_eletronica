@@ -71,6 +71,18 @@ box-shadow: 2px 1px 0px gainsboro
     flex: 1;
     display: flex;
 }
+
+.d1-imagem{
+
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;    
+}
+
+.d1-imagem img{
+    width: 100%;
+
+}
 .d1-l{
 padding-left: 10px;
 flex: 1;
@@ -79,6 +91,9 @@ flex-direction: column;
 }
 
 .d1-r{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 width: 90px;
 }
 
@@ -86,18 +101,20 @@ width: 90px;
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: brown;
+    
 }
 .d1-2{
+
     height: 50px;
-    background-color: chartreuse;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .d1-3{
     
     height: 50px;
-    background-color: cornflowerblue;}
+
+}
 
 .numeros{
     display: inline-block;
@@ -111,7 +128,7 @@ width: 90px;
 
 .d1-4{
     flex: 1;
-    background-color: darkkhaki;
+
 }
 
 .d2{
