@@ -14,12 +14,16 @@ body {
 .tela {
     width: 500px;
     height: 320px;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+    border: 2px solid gray; 
 }
 
 .teclado--linha{
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .teclado {
@@ -37,5 +41,32 @@ align-items: center;
 justify-content: center;
 margin: 10px;
 cursor: pointer;
+box-shadow: 2px 1px 0px gainsboro
 }
 
+.botao--branco{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.botao--corrige{
+    background-color: #F09A46;
+    color: black;
+    font-size: 20px;
+}.botao--confirma{
+    background-color: chartreuse;
+    color: black;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.d-1{
+    flex: 1;
+}
+
+.d-2{
+height: 50px;
+font-size: 15px;
+border-top: solid black;
+}
