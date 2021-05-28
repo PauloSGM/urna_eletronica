@@ -20,7 +20,7 @@ body {
 
 .tela {
     width: 500px;
-    height: 320px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
@@ -70,19 +70,28 @@ box-shadow: 2px 1px 0px gainsboro
 .d1{
     flex: 1;
     display: flex;
+    
 }
 
 .d1-imagem{
 
-    border: 1px solid black;
-    background-color: white;
+    
+    
     text-align: center;    
 }
 
 .d1-imagem img{
     width: 100%;
+    border: 1px solid black;
+    text-align: center;  
+    
 
 }
+#vice{
+
+    width: 75%;
+}
+
 .d1-l{
 padding-left: 10px;
 flex: 1;
@@ -91,10 +100,11 @@ flex-direction: column;
 }
 
 .d1-r{
+    margin-top: -20px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-width: 90px;
+width: 100px;
 }
 
 .d1-1{
@@ -103,6 +113,7 @@ width: 90px;
     align-items: center;
     
 }
+
 .d1-2{
 
     height: 50px;

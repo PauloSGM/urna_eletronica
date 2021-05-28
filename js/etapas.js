@@ -1,6 +1,6 @@
 let etapas = [
     "titulo": "Presidente",
-    "numeros": 5,
+    "numeros": 2,
     "candidatos": {
         "12": {
             "nome": "Ciro Gomes",
@@ -11,4 +11,5 @@ let etapas = [
             "nome": "Lula",
             "partido": "PT",
             "foto": "cv2.jpg"
-        }];
+        }]
+        
